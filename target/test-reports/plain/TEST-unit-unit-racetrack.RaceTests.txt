@@ -1,0 +1,7 @@
+Testsuite: racetrack.RaceTests
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.171 sec
+------------- Standard Error -----------------
+--Output from testInMiles--
+------------- ---------------- ---------------
+
+Testcase: testInMiles took 0.071 sec

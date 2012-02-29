@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="5" hostname="Nicolass-iMac.local" name="racetrack.RegistrationControllerTests" tests="8" time="0.747" timestamp="2012-02-22T23:38:21">
+  <properties />
+  <testcase classname="racetrack.RegistrationControllerTests" name="testIndex" time="0.215" />
+  <testcase classname="racetrack.RegistrationControllerTests" name="testList" time="0.059" />
+  <testcase classname="racetrack.RegistrationControllerTests" name="testCreate" time="0.05" />
+  <testcase classname="racetrack.RegistrationControllerTests" name="testSave" time="0.075">
+    <failure message="Assertion failed: &#xa;&#xa;assert response.redirectedUrl == &apos;/registration/show/1&apos;&#xa;       |        |             |&#xa;       |        null          false&#xa;       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@54737611&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == &apos;/registration/show/1&apos;
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@54737611
+
+	at racetrack.RegistrationControllerTests.testSave(RegistrationControllerTests.groovy:49)
+</failure>
+  </testcase>
+  <testcase classname="racetrack.RegistrationControllerTests" name="testShow" time="0.071">
+    <failure message="Assertion failed: &#xa;&#xa;assert registration.save() != null&#xa;       |            |      |&#xa;       |            null   false&#xa;       racetrack.Registration : null&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert registration.save() != null
+       |            |      |
+       |            null   false
+       racetrack.Registration : null
+
+	at racetrack.RegistrationControllerTests.testShow(RegistrationControllerTests.groovy:64)
+</failure>
+  </testcase>
+  <testcase classname="racetrack.RegistrationControllerTests" name="testEdit" time="0.061">
+    <failure message="Assertion failed: &#xa;&#xa;assert registration.save() != null&#xa;       |            |      |&#xa;       |            null   false&#xa;       racetrack.Registration : null&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert registration.save() != null
+       |            |      |
+       |            null   false
+       racetrack.Registration : null
+
+	at racetrack.RegistrationControllerTests.testEdit(RegistrationControllerTests.groovy:83)
+</failure>
+  </testcase>
+  <testcase classname="racetrack.RegistrationControllerTests" name="testUpdate" time="0.077">
+    <failure message="Assertion failed: &#xa;&#xa;assert registration.save() != null&#xa;       |            |      |&#xa;       |            null   false&#xa;       racetrack.Registration : null&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert registration.save() != null
+       |            |      |
+       |            null   false
+       racetrack.Registration : null
+
+	at racetrack.RegistrationControllerTests.testUpdate(RegistrationControllerTests.groovy:104)
+</failure>
+  </testcase>
+  <testcase classname="racetrack.RegistrationControllerTests" name="testDelete" time="0.06">
+    <failure message="Assertion failed: &#xa;&#xa;assert registration.save() != null&#xa;       |            |      |&#xa;       |            null   false&#xa;       racetrack.Registration : null&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert registration.save() != null
+       |            |      |
+       |            null   false
+       racetrack.Registration : null
+
+	at racetrack.RegistrationControllerTests.testDelete(RegistrationControllerTests.groovy:148)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-err>
+</testsuite>

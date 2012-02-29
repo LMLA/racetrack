@@ -1,0 +1,106 @@
+Testsuite: racetrack.RaceControllerTests
+Tests run: 8, Failures: 5, Errors: 0, Time elapsed: 2.47 sec
+------------- Standard Error -----------------
+--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+------------- ---------------- ---------------
+
+Testcase: testIndex took 1.312 sec
+Testcase: testList took 0.444 sec
+Testcase: testCreate took 0.088 sec
+Testcase: testSave took 0.143 sec
+	FAILED
+Assertion failed: 
+
+assert response.redirectedUrl == '/race/show/1'
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@6249e4f
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == '/race/show/1'
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@6249e4f
+
+	at racetrack.RaceControllerTests.testSave(RaceControllerTests.groovy:49)
+
+Testcase: testShow took 0.185 sec
+	FAILED
+Assertion failed: 
+
+assert race.save() != null
+       |    |      |
+       |    null   false
+       racetrack.Race : null
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert race.save() != null
+       |    |      |
+       |    null   false
+       racetrack.Race : null
+
+	at racetrack.RaceControllerTests.testShow(RaceControllerTests.groovy:64)
+
+Testcase: testEdit took 0.068 sec
+	FAILED
+Assertion failed: 
+
+assert race.save() != null
+       |    |      |
+       |    null   false
+       racetrack.Race : null
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert race.save() != null
+       |    |      |
+       |    null   false
+       racetrack.Race : null
+
+	at racetrack.RaceControllerTests.testEdit(RaceControllerTests.groovy:83)
+
+Testcase: testUpdate took 0.064 sec
+	FAILED
+Assertion failed: 
+
+assert race.save() != null
+       |    |      |
+       |    null   false
+       racetrack.Race : null
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert race.save() != null
+       |    |      |
+       |    null   false
+       racetrack.Race : null
+
+	at racetrack.RaceControllerTests.testUpdate(RaceControllerTests.groovy:104)
+
+Testcase: testDelete took 0.065 sec
+	FAILED
+Assertion failed: 
+
+assert race.save() != null
+       |    |      |
+       |    null   false
+       racetrack.Race : null
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert race.save() != null
+       |    |      |
+       |    null   false
+       racetrack.Race : null
+
+	at racetrack.RaceControllerTests.testDelete(RaceControllerTests.groovy:148)
+

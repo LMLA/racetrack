@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="1" hostname="Nicolass-iMac.local" name="racetrack.RegistrationTests" tests="1" time="0.134" timestamp="2012-02-22T23:38:22">
+  <properties />
+  <testcase classname="racetrack.RegistrationTests" name="testSomething" time="0.052">
+    <failure message="java.lang.AssertionError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: java.lang.AssertionError: Implement me
+	at racetrack.RegistrationTests.testSomething(RegistrationTests.groovy:15)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+</testsuite>

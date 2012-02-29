@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="1" hostname="Nicolass-iMac.local" id="0" name="RaceControllerTests" package="racetrack" tests="1" time="0.058" timestamp="2012-02-22T23:03:01">
+      <properties />
+
+      <testcase classname="racetrack.RaceControllerTests" name="testSomething" time="0.057">
+          <failure message="java.lang.AssertionError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: java.lang.AssertionError: Implement me
+	at racetrack.RaceControllerTests.testSomething(RaceControllerTests.groovy:20)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="Nicolass-iMac.local" id="1" name="RaceTests" package="racetrack" tests="1" time="0.011" timestamp="2012-02-22T23:03:01">
+      <properties />
+
+      <testcase classname="racetrack.RaceTests" name="testSomething" time="0.0090">
+          <failure message="java.lang.AssertionError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: java.lang.AssertionError: Implement me
+	at racetrack.RaceTests.testSomething(RaceTests.groovy:20)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="5" hostname="Nicolass-iMac.local" id="2" name="RaceControllerTests" package="racetrack" tests="8" time="2.304" timestamp="2012-02-22T23:02:52">
+      <properties />
+
+      <testcase classname="racetrack.RaceControllerTests" name="testIndex" time="1.226" />
+
+      <testcase classname="racetrack.RaceControllerTests" name="testList" time="0.373" />
+
+      <testcase classname="racetrack.RaceControllerTests" name="testCreate" time="0.105" />
+
+      <testcase classname="racetrack.RaceControllerTests" name="testSave" time="0.156">
+          <failure message="Assertion failed: &#xa;&#xa;assert response.redirectedUrl == &apos;/race/show/1&apos;&#xa;       |        |             |&#xa;       |        null          false&#xa;       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@4387f4d7&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == &apos;/race/show/1&apos;
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@4387f4d7
+
+	at racetrack.RaceControllerTests.testSave(RaceControllerTests.groovy:49)
+</failure>
+
+      </testcase>
+
+      <testcase classname="racetrack.RaceControllerTests" name="testShow" time="0.155">
+          <failure message="Assertion failed: &#xa;&#xa;assert race.save() != null&#xa;       |    |      |&#xa;       |    null   false&#xa;       racetrack.Race : null&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert race.save() != null
+       |    |      |
+       |    null   false
+       racetrack.Race : null
+
+	at racetrack.RaceControllerTests.testShow(RaceControllerTests.groovy:64)
+</failure>
+
+      </testcase>
+
+      <testcase classname="racetrack.RaceControllerTests" name="testEdit" time="0.07">
+          <failure message="Assertion failed: &#xa;&#xa;assert race.save() != null&#xa;       |    |      |&#xa;       |    null   false&#xa;       racetrack.Race : null&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert race.save() != null
+       |    |      |
+       |    null   false
+       racetrack.Race : null
+
+	at racetrack.RaceControllerTests.testEdit(RaceControllerTests.groovy:83)
+</failure>
+
+      </testcase>
+
+      <testcase classname="racetrack.RaceControllerTests" name="testUpdate" time="0.068">
+          <failure message="Assertion failed: &#xa;&#xa;assert race.save() != null&#xa;       |    |      |&#xa;       |    null   false&#xa;       racetrack.Race : null&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert race.save() != null
+       |    |      |
+       |    null   false
+       racetrack.Race : null
+
+	at racetrack.RaceControllerTests.testUpdate(RaceControllerTests.groovy:104)
+</failure>
+
+      </testcase>
+
+      <testcase classname="racetrack.RaceControllerTests" name="testDelete" time="0.059">
+          <failure message="Assertion failed: &#xa;&#xa;assert race.save() != null&#xa;       |    |      |&#xa;       |    null   false&#xa;       racetrack.Race : null&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert race.save() != null
+       |    |      |
+       |    null   false
+       racetrack.Race : null
+
+	at racetrack.RaceControllerTests.testDelete(RaceControllerTests.groovy:148)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Nicolass-iMac.local" id="3" name="RaceTests" package="racetrack" tests="1" time="0.164" timestamp="2012-02-22T23:02:54">
+      <properties />
+
+      <testcase classname="racetrack.RaceTests" name="testInMiles" time="0.068" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[--Output from testInMiles--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="5" hostname="Nicolass-iMac.local" id="4" name="RegistrationControllerTests" package="racetrack" tests="8" time="0.8" timestamp="2012-02-22T23:02:55">
+      <properties />
+
+      <testcase classname="racetrack.RegistrationControllerTests" name="testIndex" time="0.23" />
+
+      <testcase classname="racetrack.RegistrationControllerTests" name="testList" time="0.053" />
+
+      <testcase classname="racetrack.RegistrationControllerTests" name="testCreate" time="0.052" />
+
+      <testcase classname="racetrack.RegistrationControllerTests" name="testSave" time="0.064">
+          <failure message="Assertion failed: &#xa;&#xa;assert response.redirectedUrl == &apos;/registration/show/1&apos;&#xa;       |        |             |&#xa;       |        null          false&#xa;       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@6be27074&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == &apos;/registration/show/1&apos;
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@6be27074
+
+	at racetrack.RegistrationControllerTests.testSave(RegistrationControllerTests.groovy:49)
+</failure>
+
+      </testcase>
+
+      <testcase classname="racetrack.RegistrationControllerTests" name="testShow" time="0.077">
+          <failure message="Assertion failed: &#xa;&#xa;assert registration.save() != null&#xa;       |            |      |&#xa;       |            null   false&#xa;       racetrack.Registration : null&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert registration.save() != null
+       |            |      |
+       |            null   false
+       racetrack.Registration : null
+
+	at racetrack.RegistrationControllerTests.testShow(RegistrationControllerTests.groovy:64)
+</failure>
+
+      </testcase>
+
+      <testcase classname="racetrack.RegistrationControllerTests" name="testEdit" time="0.063">
+          <failure message="Assertion failed: &#xa;&#xa;assert registration.save() != null&#xa;       |            |      |&#xa;       |            null   false&#xa;       racetrack.Registration : null&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert registration.save() != null
+       |            |      |
+       |            null   false
+       racetrack.Registration : null
+
+	at racetrack.RegistrationControllerTests.testEdit(RegistrationControllerTests.groovy:83)
+</failure>
+
+      </testcase>
+
+      <testcase classname="racetrack.RegistrationControllerTests" name="testUpdate" time="0.068">
+          <failure message="Assertion failed: &#xa;&#xa;assert registration.save() != null&#xa;       |            |      |&#xa;       |            null   false&#xa;       racetrack.Registration : null&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert registration.save() != null
+       |            |      |
+       |            null   false
+       racetrack.Registration : null
+
+	at racetrack.RegistrationControllerTests.testUpdate(RegistrationControllerTests.groovy:104)
+</failure>
+
+      </testcase>
+
+      <testcase classname="racetrack.RegistrationControllerTests" name="testDelete" time="0.089">
+          <failure message="Assertion failed: &#xa;&#xa;assert registration.save() != null&#xa;       |            |      |&#xa;       |            null   false&#xa;       racetrack.Registration : null&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert registration.save() != null
+       |            |      |
+       |            null   false
+       racetrack.Registration : null
+
+	at racetrack.RegistrationControllerTests.testDelete(RegistrationControllerTests.groovy:148)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="Nicolass-iMac.local" id="5" name="RegistrationTests" package="racetrack" tests="1" time="0.167" timestamp="2012-02-22T23:02:55">
+      <properties />
+
+      <testcase classname="racetrack.RegistrationTests" name="testSomething" time="0.061">
+          <failure message="java.lang.AssertionError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: java.lang.AssertionError: Implement me
+	at racetrack.RegistrationTests.testSomething(RegistrationTests.groovy:15)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="5" hostname="Nicolass-iMac.local" id="6" name="RunnerControllerTests" package="racetrack" tests="8" time="0.58" timestamp="2012-02-22T23:02:56">
+      <properties />
+
+      <testcase classname="racetrack.RunnerControllerTests" name="testIndex" time="0.207" />
+
+      <testcase classname="racetrack.RunnerControllerTests" name="testList" time="0.039" />
+
+      <testcase classname="racetrack.RunnerControllerTests" name="testCreate" time="0.046" />
+
+      <testcase classname="racetrack.RunnerControllerTests" name="testSave" time="0.049">
+          <failure message="Assertion failed: &#xa;&#xa;assert response.redirectedUrl == &apos;/runner/show/1&apos;&#xa;       |        |             |&#xa;       |        null          false&#xa;       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@e2f97ff&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == &apos;/runner/show/1&apos;
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@e2f97ff
+
+	at racetrack.RunnerControllerTests.testSave(RunnerControllerTests.groovy:49)
+</failure>
+
+      </testcase>
+
+      <testcase classname="racetrack.RunnerControllerTests" name="testShow" time="0.05">
+          <failure message="Assertion failed: &#xa;&#xa;assert runner.save() != null&#xa;       |      |      |&#xa;       |      null   false&#xa;       racetrack.Runner : null&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert runner.save() != null
+       |      |      |
+       |      null   false
+       racetrack.Runner : null
+
+	at racetrack.RunnerControllerTests.testShow(RunnerControllerTests.groovy:64)
+</failure>
+
+      </testcase>
+
+      <testcase classname="racetrack.RunnerControllerTests" name="testEdit" time="0.047">
+          <failure message="Assertion failed: &#xa;&#xa;assert runner.save() != null&#xa;       |      |      |&#xa;       |      null   false&#xa;       racetrack.Runner : null&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert runner.save() != null
+       |      |      |
+       |      null   false
+       racetrack.Runner : null
+
+	at racetrack.RunnerControllerTests.testEdit(RunnerControllerTests.groovy:83)
+</failure>
+
+      </testcase>
+
+      <testcase classname="racetrack.RunnerControllerTests" name="testUpdate" time="0.038">
+          <failure message="Assertion failed: &#xa;&#xa;assert runner.save() != null&#xa;       |      |      |&#xa;       |      null   false&#xa;       racetrack.Runner : null&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert runner.save() != null
+       |      |      |
+       |      null   false
+       racetrack.Runner : null
+
+	at racetrack.RunnerControllerTests.testUpdate(RunnerControllerTests.groovy:104)
+</failure>
+
+      </testcase>
+
+      <testcase classname="racetrack.RunnerControllerTests" name="testDelete" time="0.043">
+          <failure message="Assertion failed: &#xa;&#xa;assert runner.save() != null&#xa;       |      |      |&#xa;       |      null   false&#xa;       racetrack.Runner : null&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert runner.save() != null
+       |      |      |
+       |      null   false
+       racetrack.Runner : null
+
+	at racetrack.RunnerControllerTests.testDelete(RunnerControllerTests.groovy:148)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="Nicolass-iMac.local" id="7" name="RunnerTests" package="racetrack" tests="1" time="0.035" timestamp="2012-02-22T23:02:56">
+      <properties />
+
+      <testcase classname="racetrack.RunnerTests" name="testSomething" time="0.033">
+          <failure message="java.lang.AssertionError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: java.lang.AssertionError: Implement me
+	at racetrack.RunnerTests.testSomething(RunnerTests.groovy:15)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+</testsuites>
