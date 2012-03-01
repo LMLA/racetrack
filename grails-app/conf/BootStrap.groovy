@@ -15,7 +15,7 @@ class BootStrap {
                         city: "Gooses",
                         state: "NC",
                         zipcode: "12345",
-                        email: "jane@whereeveryouwant.com"
+                        email: "jane@reeouwant.com"
                 )
                 jane.save()
                 if (jane.hasErrors()) {
