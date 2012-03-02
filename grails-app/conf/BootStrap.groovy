@@ -15,7 +15,7 @@ class BootStrap {
                         city: "Gooses",
                         state: "NC",
                         zipcode: "12345",
-                        email: "jane@hotmail.com"
+                        email: "jane.doe@gmail.com"
                 )
                 jane.save()
                 if (jane.hasErrors()) {
@@ -26,6 +26,20 @@ class BootStrap {
         }
 
     }
-    def destroy = {
+    def destroy = {      def jane = new Runner(
+                        firstName: "Jane",
+                        lastName: "Doe",
+                        dateOfBirth: (new Date() - 365 * 30),
+                        gender: "F",
+                        address: "123 Main St",
+                        city: "Gooses",
+                        state: "NC",
+                        zipcode: "12345",
+                        email: "jane@hotmail.com"
+                )
+                jane.save()
+                if (jane.hasErrors()) {
+                    println(jane.errors)
+                }
     }
 }
