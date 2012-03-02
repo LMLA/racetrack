@@ -29,4 +29,6 @@ class Race {
     String toString(){
         return "${name}, ${startDate.format('MM/dd/yyyy')}"
     }
+
+
 }
