@@ -125,6 +125,7 @@
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.apache.ant/ant-launcher/jars/ant-launcher-1.8.2.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.apache.ant/ant/jars/ant-1.8.2.jar!/" />
           <root url="file://$MODULE_DIR$/lib" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/postgresql/postgresql/jars/postgresql-9.1-901.jdbc4.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -133,6 +134,7 @@
     </orderEntry>
     <orderEntry type="module" module-name="racetrack-grailsPlugins" />
     <orderEntry type="library" name="Grails 2.0.1" level="project" />
+    <orderEntry type="library" name="grails-2.0.1" level="application" />
     <orderEntry type="library" name="grails-2.0.1" level="application" />
   </component>
 </module>

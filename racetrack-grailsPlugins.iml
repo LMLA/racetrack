@@ -60,9 +60,11 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="PROVIDED" name="Grails 2.0.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="grails-2.0.1" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="grails-2.0.1" level="application" />
     <orderEntry type="module-library" exported="">
       <library name="Grails User Library (racetrack-grailsPlugins)">
         <CLASSES>
+          <root url="file://$USER_HOME$/.grails/2.0.1/projects/racetrack/plugins/cloud-foundry-1.2.1/lib" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/opensymphony/sitemesh/jars/sitemesh-2.4.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.hibernate.javax.persistence/hibernate-jpa-2.0-api/jars/hibernate-jpa-2.0-api-1.0.1.Final.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/javax.transaction/jta/jars/jta-1.1.jar!/" />
@@ -141,7 +143,7 @@
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.apache.ant/ant-junit/jars/ant-junit-1.8.2.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.apache.ant/ant-launcher/jars/ant-launcher-1.8.2.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.apache.ant/ant/jars/ant-1.8.2.jar!/" />
-          <root url="file://$USER_HOME$/.grails/2.0.1/projects/racetrack/plugins/cloud-foundry-1.2.1/lib" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/postgresql/postgresql/jars/postgresql-9.1-901.jdbc4.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
