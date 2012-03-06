@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AntConfiguration">
-    <defaultAnt bundledAnt="true" />
-  </component>
   <component name="ArtifactManager">
     <artifact type="exploded-war" name="racetrack:GrailsWeb exploded">
       <root id="root">
@@ -34,7 +31,7 @@
     <option name="SKIP_IMPORT_STATEMENTS" value="false" />
   </component>
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
-  <component name="IdProvider" IDEtalkID="3F4F307DF2E678278801264BF67320A8" />
+  <component name="IdProvider" IDEtalkID="BC9A5588171BAF7B4F4194C8DDA68342" />
   <component name="Palette2">
     <group name="Swing">
       <item class="com.intellij.uiDesigner.HSpacer" tooltip-text="Horizontal Spacer" icon="/com/intellij/uiDesigner/icons/hspacer.png" removable="false" auto-create-binding="false" can-attach-label="false">
@@ -161,9 +158,6 @@
       <module fileurl="file://$PROJECT_DIR$/racetrack.iml" filepath="$PROJECT_DIR$/racetrack.iml" />
       <module fileurl="file://$PROJECT_DIR$/racetrack-grailsPlugins.iml" filepath="$PROJECT_DIR$/racetrack-grailsPlugins.iml" />
     </modules>
-  </component>
-  <component name="ProjectResources">
-    <default-html-doctype>http://www.w3.org/1999/xhtml</default-html-doctype>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_5" assert-keyword="true" jdk-15="true" project-jdk-name="1.6" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
