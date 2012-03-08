@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="Nicolass-iMac.local" name="racetrack.RaceTests" tests="1" time="0.171" timestamp="2012-02-22T23:38:21">
+<testsuite errors="0" failures="0" hostname="Nicolass-iMac.local" name="racetrack.RaceTests" tests="1" time="0.469" timestamp="2012-03-07T22:02:59">
   <properties />
-  <testcase classname="racetrack.RaceTests" name="testInMiles" time="0.071" />
-  <system-out><![CDATA[]]></system-out>
+  <testcase classname="racetrack.RaceTests" name="testInMiles" time="0.379" />
+  <system-out><![CDATA[--Output from testInMiles--
+]]></system-out>
   <system-err><![CDATA[--Output from testInMiles--
 ]]></system-err>
 </testsuite>
