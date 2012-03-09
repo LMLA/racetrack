@@ -110,7 +110,8 @@ class UserController {
     }
 
     def authenticate = {
-        def user = User.findByLoginAndPassword(params.login,params.password)
+        //TODO: Doesn't work with both login and password. I've created the action only with login so far...
+        def user = User.findByLogin(params.login)
         if (user){
             session.user = user
             flash.message = "Hello ${user.login}!"

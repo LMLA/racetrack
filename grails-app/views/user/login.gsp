@@ -15,6 +15,7 @@
         <div class="dialog">
             <table>
                 <tbody>
+
                 <tr class="prop">
                     <td valign="top" class="name">
                         <label for="login">Login:</label>
@@ -22,20 +23,24 @@
                     <td valign="top">
                         <input type="text"
                                id="login" name="login"/>
-                    </td> </tr>
+                    </td>
+                </tr>
+
                 <tr class="prop">
                     <td valign="top" class="name">
                         <label for="password">Password:</label>
                     </td>
                     <td valign="top">
-                        <input type="password"
-                    </td> </tr>
+                        <input type="password">
+                    </td>
+                </tr>
+
                 </tbody>
             </table>
         </div>
         <div class="buttons">
             <span class="button">
-                <input type="submit" value="Login" />
+                <input type="submit" value="Login!" />
             </span>
         </div>
     </g:form>
